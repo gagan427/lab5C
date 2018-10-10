@@ -1,0 +1,11 @@
+#include<iostream>
+#include<fstream>
+using namesapce std;
+
+int main(){
+    ofstream myfile;
+    myfile.open("gagan.txt");
+    myfile<<"Your triangle has 3 sides that are 3cm,4cm and 16.8226cm.\n";
+    mufile.close();
+    return 0;
+}
